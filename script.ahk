@@ -1,8 +1,9 @@
-^+s::
+!+s::
 {
     temp := clipboardall
     clipboard := "redacted"
-    sendinput, ^v
+    Click, Right
+    Send {enter}
     Sleep, 1000
     clipboard := temp
     temp := ""
@@ -14,6 +15,7 @@ return
     temp := clipboardall
     clipboard := "redacted"
     sendinput, ^v
+    Send {enter}
     Sleep, 1000
     clipboard := temp
     temp := ""
