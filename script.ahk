@@ -4,6 +4,7 @@
     clipboard := "redacted"
     Click, Right
     Send {enter}
+    send {shift down}{alt down}{shift up}{alt up}
     Sleep, 1000
     clipboard := temp
     temp := ""
