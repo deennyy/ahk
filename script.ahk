@@ -15,7 +15,7 @@ return
 {
     temp := clipboardall
     clipboard := "redacted"
-    sendinput, ^v
+    Click, Right
     Send {enter}
     Sleep, 1000
     clipboard := temp
