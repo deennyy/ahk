@@ -2,6 +2,7 @@
 {
     temp := clipboardall
     clipboard := "redacted"
+    Sleep, 500
     Click, Right
     Send {enter}
     send {shift down}{alt down}{shift up}{alt up}
@@ -15,6 +16,7 @@ return
 {
     temp := clipboardall
     clipboard := "redacted"
+    Sleep, 500
     Click, Right
     Send {enter}
     Sleep, 1000
