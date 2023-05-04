@@ -28,3 +28,4 @@ return
 #b::Run, brave
 ^!t::Run, wt
 #f::WinMaximize, A
+#SPACE::  Winset, Alwaysontop, , A
